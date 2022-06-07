@@ -1,6 +1,7 @@
 ﻿using ChatApp.Models;
 using ChatApp.Services;
 using ChatApp.Validations;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
 using System.Text;
@@ -24,10 +25,14 @@ namespace ChatApp.Controllers
         }
         // GET: api/<SignupController>
         [HttpGet("{pageIndex:int}")]
-        public ActionResult<List<Signup>> Get(int pageIndex)
+        [AllowAnonymous]
+        public ActionResult<(List<Signup>, string)> Get(int pageIndex)
         {
-            return _signupservice.Get(pageIndex);
-        }
+
+            var temp = _signupservice.Get(pageIndex);
+
+            return Ok(new { data = temp.Item1, total = temp.Item2 });
+        } 
 
         // GET api/<SignupController>/5
         [HttpGet("{id}")]

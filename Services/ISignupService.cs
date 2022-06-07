@@ -4,7 +4,7 @@ namespace ChatApp.Services
 {
     public interface ISignupService
     {
-        List<Signup> Get(int pageIndex);
+        (List<Signup>, string) Get(int pageIndex);
         Signup Get(string id);
         Signup Create(Signup signup);
         void Update(string id, Signup signup);

@@ -41,3 +41,6 @@ F:\DotNetprojects\ChatApp\obj\Debug\net6.0\refint\ChatApp.dll
 F:\DotNetprojects\ChatApp\obj\Debug\net6.0\ChatApp.pdb
 F:\DotNetprojects\ChatApp\obj\Debug\net6.0\ChatApp.genruntimeconfig.cache
 F:\DotNetprojects\ChatApp\obj\Debug\net6.0\ref\ChatApp.dll
+F:\DotNetprojects\ChatApp\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+F:\DotNetprojects\ChatApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+F:\DotNetprojects\ChatApp\bin\Debug\net6.0\Newtonsoft.Json.dll

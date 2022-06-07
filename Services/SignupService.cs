@@ -1,7 +1,10 @@
 ﻿using ChatApp.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 using System.Linq;
+using System.Text.Json;
 
 namespace ChatApp.Services
 {
@@ -27,11 +30,15 @@ namespace ChatApp.Services
             _signupCollection.DeleteOne(Signup => Signup.Id == id);
         }
 
-        public List<Signup> Get(int pageIndex)
+        [AllowAnonymous]
+        public (List<Signup>, string) Get(int pageIndex)
         {
             var quareable = _signupCollection.AsQueryable();
-            ///collection.AsQueryable().Sample(1).First().GetValue("name").ToString();
-            return quareable.OrderBy(x => x.Id).Skip((pageIndex-1)*10).Take(10).ToList();
+             var totalCount = quareable.Count().ToString();
+            List < Signup > Page = quareable.OrderBy(x => x.Id).Skip((pageIndex - 1) * 10).Take(10).ToList();
+
+
+            return (Page, totalCount);
             //return quareable.Sample(1).First().GetValue("Email").ToList();
         }
 
