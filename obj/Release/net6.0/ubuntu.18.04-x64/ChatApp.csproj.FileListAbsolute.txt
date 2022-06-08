@@ -341,3 +341,6 @@ F:\DotNetprojects\ChatApp\obj\Release\net6.0\ubuntu.18.04-x64\refint\ChatApp.dll
 F:\DotNetprojects\ChatApp\obj\Release\net6.0\ubuntu.18.04-x64\ChatApp.pdb
 F:\DotNetprojects\ChatApp\obj\Release\net6.0\ubuntu.18.04-x64\ChatApp.genruntimeconfig.cache
 F:\DotNetprojects\ChatApp\obj\Release\net6.0\ubuntu.18.04-x64\ref\ChatApp.dll
+F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\Microsoft.DotNet.PlatformAbstractions.dll
+F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\Microsoft.Extensions.DependencyModel.dll
+F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\Newtonsoft.Json.dll

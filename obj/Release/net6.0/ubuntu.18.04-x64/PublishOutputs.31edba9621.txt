@@ -315,11 +315,14 @@ F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\libhostpol
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\libmscordaccore.so
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\libmscordbi.so
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\DnsClient.dll
+F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\Microsoft.DotNet.PlatformAbstractions.dll
+F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\Microsoft.Extensions.DependencyModel.dll
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\Microsoft.OpenApi.dll
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\MongoDB.Bson.dll
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\MongoDB.Driver.dll
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\MongoDB.Driver.Core.dll
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\MongoDB.Libmongocrypt.dll
+F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\Newtonsoft.Json.dll
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\SharpCompress.dll
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\Swashbuckle.AspNetCore.Swagger.dll
 F:\DotNetprojects\ChatApp\bin\Release\net6.0\ubuntu.18.04-x64\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
